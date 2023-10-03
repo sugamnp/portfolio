@@ -6,20 +6,22 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { LeftSection, HandEmoji } from "./HeroStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+        <HandEmoji>👋🏻</HandEmoji> Hello, <br />
+        I'm Sugam Neupane
       </SectionTitle>
       <SectionText>
-        The purposr of this PortFolio is to showcase my skill in web
-        developmeent and share my experience in Software development.
+        A software engineer passionate about building digital wonders. In this
+        corner of the web, you'll find a showcase of my coding expertise. From
+        crafting responsive websites to developing smart applications, I love
+        bringing ideas to life through lines of code.
       </SectionText>
-      <Button Onclick={() => (window.location = "https://google.com")}>
+      <Button onClick={() => (window.location = "https://google.com")}>
         Learn More
       </Button>
     </LeftSection>
