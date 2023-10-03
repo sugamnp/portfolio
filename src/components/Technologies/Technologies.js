@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiApple, DiFirebase, DiReact, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -25,10 +25,10 @@ const Technologies = () => (
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle> Development</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Experienced in both functional and OOP: Dart, Python, Java,
+            JavaScript, TypeScript.
           </ListParagraph>
         </ListContainer>
       </ListItem>

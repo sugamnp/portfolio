@@ -13,7 +13,7 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         <HandEmoji>👋🏻</HandEmoji> Hello, <br />
-        I'm Sugam Neupane
+        I'm maybe not Sugam Neupane
       </SectionTitle>
       <SectionText>
         A software engineer passionate about building digital wonders. In this
@@ -21,8 +21,13 @@ const Hero = (props) => (
         crafting responsive websites to developing smart applications, I love
         bringing ideas to life through lines of code.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
-        Learn More
+      <Button
+        onClick={() =>
+          (window.location =
+            "https://www.linkedin.com/in/sugam-neupane-6424451b2")
+        }
+      >
+        Let's connect
       </Button>
     </LeftSection>
   </Section>
