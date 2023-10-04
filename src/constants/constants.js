@@ -79,4 +79,5 @@ export const data = [
   { number: 4, text: "Projects" },
   { number: 1, text: "Top 100 Students Award" },
   { number: 10, text: "Software Engineering Blogs" },
+  { number: 10, text: "Certifications" },
 ];
