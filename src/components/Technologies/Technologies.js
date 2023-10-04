@@ -1,5 +1,14 @@
 import React from "react";
-import { DiApple, DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  DiApple,
+  DiFirebase,
+  DiGithub,
+  DiReact,
+  DiZend,
+  DiGit,
+  DiAptana,
+  DiWindows,
+} from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -25,30 +34,62 @@ const Technologies = () => (
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle> Development</ListTitle>
+          <ListTitle>Front End</ListTitle>
           <ListParagraph>
-            Experienced in both functional and OOP: Dart, Python, Java,
-            JavaScript, TypeScript.
+            Experience with <br />
+            React and NextJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Back End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Django, ASP.NET and Flask
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
+        <DiAptana size="3rem" />
         <ListContainer>
-          <ListTitle>Back End</ListTitle>
+          <ListTitle> Development</ListTitle>
+          <ListParagraph>
+            Experienced with <br />
+            Agile Methodologies, <br />
+            TDD and DevOps practices
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiGit size="3rem" />
+        <ListContainer>
+          <ListTitle>Version Control</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Git
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiWindows size="3rem" />
+        <ListContainer>
+          <ListTitle>Cross Platform Development</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Xamarin and Flutter
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiAptana size="3rem" />
+        <ListContainer>
+          <ListTitle>Testing</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            JUnit, XUnit and NUnit
           </ListParagraph>
         </ListContainer>
       </ListItem>

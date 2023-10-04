@@ -13,13 +13,13 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         <HandEmoji>👋🏻</HandEmoji> Hello, <br />
-        I'm maybe not Sugam Neupane
+        I'm Sugam Neupane
       </SectionTitle>
       <SectionText>
-        A software engineer passionate about building digital wonders. In this
-        corner of the web, you'll find a showcase of my coding expertise. From
-        crafting responsive websites to developing smart applications, I love
-        bringing ideas to life through lines of code.
+        A software engineer passionate about building digital creations. Here,
+        I'm sharing my coding adventures - from crafting responsive websites to
+        developing smart applications, I love bringing ideas to life through
+        lines of code.
       </SectionText>
       <Button
         onClick={() =>

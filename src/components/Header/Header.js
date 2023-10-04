@@ -31,29 +31,29 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Expertise</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink>About</NavLink>
+          <NavLink>Journey</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#projects">
+          <NavLink>Blogs</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/sugamnp">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://www.linkedin.com/in/sugam-neupane-6424451b2/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://instagram.com/sugam.ne">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>

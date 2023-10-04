@@ -20,7 +20,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:0414181850">0414181850</LinkItem>
+          <LinkItem href="tel:0414181850">+61 0414181850</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -31,16 +31,16 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan> Innovation is the key </Slogan>
+          <Slogan> “To iterate is human, to recurse divine.” </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/sugamnp">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://www.linkedin.com/in/sugam-neupane-6424451b2/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://instagram.com/sugam.ne">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
