@@ -26,6 +26,12 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  transition: all 0.1s ease; // Adding transition for smooth hover effect
+  cursor: pointer; // Adding pointer cursor for better user experience
+  &:hover {
+    transform: scale(1.05); // Scale up the card on hover
+    box-shadow: 3px 3px 30px rgba(80, 78, 78, 0.8); // Enhance the shadow on hover
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -38,9 +44,9 @@ export const TitleContent = styled.div`
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
-  letter-spacing: 2px;
   color: #9cc9e3;
-  padding: 0.5rem 0;
+  padding: 1.7rem;
+  padding-bottom: 0rem;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
 
@@ -48,6 +54,7 @@ export const Hr = styled.hr`
   width: 50px;
   height: 3px;
   margin: 20px auto;
+  margin-bottom: 0rem;
   border: 0;
   background: #d0bb57;
 `;
@@ -64,13 +71,15 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 3rem;
+  padding-bottom: 0rem;
   color: #e4e6e7;
   font-style: 2rem;
+  font-spacing: condensed;
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 4srem;
   }
 `;
 
@@ -85,7 +94,7 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem 7rem;
   background: #6b3030;
   border-radius: 15px;
   transition: 0.5s;
@@ -98,8 +107,10 @@ export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  padding-bottom: 0rem;
 `;
 export const Tag = styled.li`
   color: #d8bfbf;
   font-size: 1.5rem;
+  font-style: oblique;
 `;
