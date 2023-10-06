@@ -17,9 +17,9 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
         A software engineer passionate about building digital creations. Here,
-        I'm sharing my coding adventures - from crafting responsive websites to
+        I'm sharing my coding adventures -from crafting responsive websites to
         developing smart applications, I love bringing ideas to life through
-        lines of code.
+        lines of code .
       </SectionText>
       <Button
         onClick={() =>
