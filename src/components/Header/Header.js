@@ -23,6 +23,7 @@ const Header = () => (
             alignItems: "center",
             color: "white",
             marginBottom: "0.5rem",
+            marginLeft: "1rem",
           }}
         >
           <DiCssdeck size="3rem" /> <Span> PortFolio </Span>
