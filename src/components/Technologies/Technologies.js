@@ -56,7 +56,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle> Development</ListTitle>
           <ListParagraph>
-            Experienced with <br />
+            Experience with <br />
             Agile Methodologies, <br />
             TDD and DevOps practices
           </ListParagraph>
