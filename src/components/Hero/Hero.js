@@ -22,10 +22,7 @@ const Hero = (props) => (
         lines of code .
       </SectionText>
       <Button
-        onClick={() =>
-          (window.location =
-            "https://www.linkedin.com/in/sugam-neupane-6424451b2")
-        }
+        onClick={() => (window.location = "https://www.linkedin.com/in/sugamn")}
       >
         Let's connect
       </Button>
